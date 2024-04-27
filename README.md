@@ -1,1 +1,14 @@
 # CS360-MobileDev
+
+# Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+This app is suppose to provide users a way to organize and keep track of their car maintenance schedules. With this app users were able to create an account and have their maintencace events saved. This would also allow for users to receive messages when events are due. 
+# What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+I wanted to keep the design simple and organized for users so they can easily add and delete events that they created. I also tried to find a color scheme that is somewhat uniwueu so it can stand out more for the users.
+# How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
+Some approaches I took was ensuring at least different screens and functionalities were made properly. So I started with the event creation screens and functions, this meant first allowing users to create an event then, create sqlite database that would allow for the events to persist, followed by deleting of events. After that other functions and screens can be worked on such as the login screen. 
+# How did you test to ensure your code was functional? Why is this process important and what did it reveal?
+I tried to compile the code after a couple of lines to ensure that the desing and features compiled and worked as intended. This was important because I noticed that some issues with the design view is that if you did not constain certain elements they would get initialize to zero, meaning all the elements would render at the top left of the screen rather than where I place them in design view.
+# Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
+I had to simplify alot of my initial design choices I initially wanted the add and delete button to occur on the same event screen but instead I made it to where when people edit they get taken to a different edit screen. 
+# In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+I think I got better at designing the look of a screen and learned about different design elements from the xml screen, however its the functionality of it and making certain buttons take you to different screens that was very difficult. There was moments where I wanted to just give up and not even submit anything. However this taught me that at the very least I need to provide something because this project would eventually stand as a starting point of my journey where I can look back and see how far I have come.
